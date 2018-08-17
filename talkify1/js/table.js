@@ -1,0 +1,6 @@
+$(function(){
+	setupLeftMenu();
+	setSidebarHeight();
+	
+	
+});

@@ -1,0 +1,148 @@
+
+input[type=text] {
+    padding: 4px;
+}
+
+input[type="text"], input[type="password"] {
+	background-clip:padding-box;
+	border-radius:0 0 0 0;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	transition:border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{
+	color:#555555;
+	display:inline-block;
+	font-size:14px;
+	height:20px;
+	line-height:20px;
+	margin-bottom:9px;
+	padding:4px 6px;
+}
+
+.input-xlarge {
+	width:270px;
+}
+
+input, textarea, .uneditable-input {
+	margin-left:0;
+}
+
+input, button, textarea {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+label, input, button, textarea {
+	font-weight:normal;
+}
+
+button, input,  textarea {
+	vertical-align:middle;
+}
+
+#ajaxLoadAni {
+    background: #3A3A3A;
+    color: #fff;
+    display: none;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 40%;
+    padding: 8px;
+    width: 106px;
+    z-index: 9999;
+}
+
+#ajaxLoadAni span {
+    float: right;
+    margin: 2px 0 0 0;
+}
+
+#tabs {
+    font-size: .9em;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.ui-widget-content {
+    font-size: .8em;
+}
+
+#records {
+    font-size: 1em;
+    width: 100%;
+    color: #555555;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:14px; 
+}
+
+#records tr:nth-child(2n) {
+    background: #EAEAEA;
+}
+
+#records tr:hover {
+    background: #CCCCCC;
+}
+
+#records td {
+    padding: 6px;
+    margin: 8px;
+}
+#records th, #records td {
+	text-align:left;
+}
+
+#delConfDialog, #msgDialog, #updateDialog {
+    font-size: 1em;
+}
+
+#updateDialog label {
+    display: inline-block;
+    text-align: right;
+    width: 90px;
+}
+
+#create label {
+    display: inline-block;
+    text-align: right;
+    /*width: 60px;*/
+    color: #333333;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:14px; 
+}
+
+/* Validation label */
+#create label.error {
+    color: red;
+    font-size: .9em;
+    padding: 4px;
+    margin: 0 0 0 4px;
+    width: auto;
+}
+
+/* DataTables specific styles */
+.fg-toolbar {
+    padding: 6px;
+}
+.dataTables_length, .dataTables_info {
+    float: left;
+    margin: 3px 0 0;
+}
+.dataTables_filter, .dataTables_paginate {
+    float: right;
+}
+.DataTables_sort_wrapper {
+    cursor: pointer;
+    padding: 4px;
+    position: relative;
+}
+.DataTables_sort_wrapper .css_right {
+    position: absolute;
+    right: 0;
+    top: 4px;
+}

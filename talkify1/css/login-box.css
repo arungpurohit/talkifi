@@ -1,0 +1,101 @@
+
+#login-box-grid{
+	padding: 40px 0px 0px 400px;
+}
+
+#login-box {
+	width:333px;
+	height: 352px;
+	padding: 46px 76px 0px 76px;
+	color: #ebebeb;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(../images/login-box-backg.png) no-repeat left top;
+}
+
+#login-box img {
+	border:none;
+}
+
+#login-box h2 {
+	padding:0px;
+	/*margin:0px;*/
+	margin:8px 0 0px 0;
+	color: #ebebeb;
+	font: bold 44px "Calibri", Arial;
+}
+
+
+.login-box-name {
+	float: left;
+	display:inline;
+	width:80px;
+	text-align: right;
+	padding: 10px 0px 0px 10px;
+	/*margin:0 0 7px 0;*/
+	margin: 33px 10px 0px 0px;
+	font-size: 14px;
+}
+
+.login-box-field {
+	float: right;
+	display:inline;
+	width:230px;
+	/*margin:0 0 7px 0;*/
+	margin: 25px 0px 0px 2px;
+}
+
+
+.form-login  {
+	width: 205px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 16px;
+	color: #ebebeb;
+}
+
+
+.login-box-options  {
+	/*clear:both;*/
+	/*padding-left:87px;*/
+	padding: 30px 0px 0px 110px;
+	font-size: 11px;
+	margin: 30px 0px 0px 0px;
+	font-weight: bold;
+	text-decoration:none''
+}
+
+.login-box-options a {
+	color: #ebebeb;
+	font-size: 11px;
+}
+
+.login-box-options-a {
+	color: #ebebeb;
+	font-size: 11px;
+}
+
+.login-box-options-a:hover {
+	color:#fff;
+}
+#login-box #identity {
+	float: right;
+	display:inline;
+	width:215px;
+	height: 30px;
+	/*margin:0 0 7px 0;*/
+	margin: 10px 10px 0px 0px;
+}
+
+#login-box #password {
+	float: right;
+	display:inline;
+	width:215px;
+	height: 30px;
+	/*margin:0 0 7px 0;*/
+	margin: 10px 10px 20px 0px;
+}
+#login-box #remember {
+	float: left;
+	margin: 2px 6px 0px 0px;
+}
